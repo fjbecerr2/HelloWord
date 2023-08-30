@@ -4,31 +4,10 @@
    http://maven.apache.org/xsd/maven-4.0.0.xsd">
    <modelVersion>4.0.0</modelVersion>
 
- 
-   <groupId>es.HelloWord</groupId>
-   <artifactId>project</artifactId>
-   <version>1.0</version>         
-
-<build>
-  <plugins>
-    <plugin>
-      <!-- Build an executable JAR -->
-      <groupId>es.HelloWord</groupId>
-      <artifactId>project1</artifactId>
-      <version>1.5</version>
-      <configuration>
-        <archive>
-          <manifest>
-            <addClasspath>true</addClasspath>
-            <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>HelloWord</mainClass>
-          </manifest>
-        </archive>
-      </configuration>
-    </plugin>
-  </plugins>
-</build>
-
-   
+    <groupId>es.HelloWord</groupId>
+    <artifactId>ProjectMaven</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>EjemploMaven</name>
+    <description>Ejemplo de proyecto con Maven</description>
    
 </project>
