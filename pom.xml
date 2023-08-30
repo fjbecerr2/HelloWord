@@ -8,12 +8,12 @@
    <artifactId>project</artifactId>
    <version>1.0</version>
   
-          <archive>
+         
             <manifest>
               <addClasspath>true</addClasspath>
               <mainClass>HelloWord</mainClass>
             </manifest>
-          </archive>
+         
         
    
 </project>
