@@ -1,7 +1,7 @@
 // Your First Program
-package es.HelloWordld
+package es.HelloWord
 
-class HelloWorld {
+class HelloWord {
     public static void main(String[] args) {
         System.out.println("Hello, World!"); 
     }
