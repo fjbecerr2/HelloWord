@@ -7,4 +7,14 @@
    <groupId>com.companyname.project-group</groupId>
    <artifactId>project</artifactId>
    <version>1.0</version>
+   <configuration>
+        <archive>
+            <manifest>
+                <packageName>com.baeldung.java</packageName>
+            </manifest>
+            <manifestEntries>
+                <Created-By>baeldung</Created-By>
+            </manifestEntries>
+        </archive>
+    </configuration>   
 </project>
