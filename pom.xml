@@ -10,7 +10,7 @@
    <configuration>
         <archive>
             <manifest>
-                <packageName>com.baeldung.java</packageName>
+                <packageName>es.HelloWorld</packageName>
             </manifest>
             <manifestEntries>
                 <Created-By>baeldung</Created-By>
