@@ -7,4 +7,13 @@
    <groupId>com.companyname.project-group</groupId>
    <artifactId>project</artifactId>
    <version>1.0</version>
+   <configuration>
+          <archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+              <mainClass>HelloWord</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
+   
 </project>
