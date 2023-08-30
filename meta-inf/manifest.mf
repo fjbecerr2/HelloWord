@@ -1,6 +1,4 @@
 Manifest-Version: 1.0
-Built-By: ${user.name}
-Build-Jdk: ${java.version}
-Created-By: Apache Maven
-Archiver-Version: Plexus Archiver
-Main-Class: es.HelloWorld.HelloWord
+Main-Class: HelloWord
+Class-Path: 
+Name: 
