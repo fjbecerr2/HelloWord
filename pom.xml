@@ -7,14 +7,18 @@
    <groupId>com.companyname.project-group</groupId>
    <artifactId>project</artifactId>
    <version>1.0</version>
-   <configuration>
-        <archive>
-            <manifest>
-                <packageName>es.HelloWorld</packageName>
-            </manifest>
-            <manifestEntries>
-                <Created-By>baeldung</Created-By>
-            </manifestEntries>
-        </archive>
-    </configuration>   
+
+   <plugin>
+	   <groupId>es.HelloWorld</groupId>
+	   <artifactId>project</artifactId>
+	   <version>1.0</version>
+	   <configuration>
+	     <archive>
+	       <manifest>
+		      <mainClass>HelloWorld</mainClass>
+	       </manifest>
+	     </archive>
+	   </configuration>      
+    </plugin>
+   
 </project>
