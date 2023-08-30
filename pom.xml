@@ -7,17 +7,7 @@
    <groupId>HelloWord</groupId>
    <artifactId>project</artifactId>
    <version>1.0</version>         
-         
-    <build>
-    <plugins>
-        <plugin>
-            <groupId>HelloWord</groupId>
-            <artifactId>project</artifactId>
-            <configuration>
-                <mainClass>HelloWord</mainClass>
-            </configuration>                   
-        </plugin>
-    </plugins>
+   
 </build>    
    
 </project>
