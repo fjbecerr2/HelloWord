@@ -15,6 +15,7 @@
 				<archive>
 				<mainClass>EjemploMaven1</mainClass>					
 				<manifestFile>meta-inf/manifest.mf</manifestFile>
+				<mainClass>EjemploMaven1</mainClass>
 				</archive>
 				</configuration>
 		     	</plugin>
