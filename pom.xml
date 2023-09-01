@@ -23,7 +23,8 @@
         			<artifactId>maven-jar-plugin</artifactId>
         			<version>3.3.0</version>
 			      	<configuration>
-				 	<mainClass>es.EjemploMaven1.EjemploMaven1</mainClass>					
+				 	<mainClass>es.EjemploMaven1.EjemploMaven1</mainClass>
+					<layout>JAR</layout>
 				</configuration>
 		     	</plugin>
 	    	</plugins>
