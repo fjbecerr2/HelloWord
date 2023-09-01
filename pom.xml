@@ -6,8 +6,7 @@
 	<packaging>jar</packaging>
 	 <name>EjemploMaven</name>
 
-	<build>
-		 
+	<build>		 
 	    	<plugins>
 		     	<plugin>
 				 <!-- Build an executable JAR -->
@@ -17,8 +16,7 @@
 			      	<configuration>
 					<archive>
             					<manifest>
-						 	<mainClass>es.EjemploMaven1.EjemploMaven1</mainClass>
-							
+						 	<mainClass>es.EjemploMaven1.EjemploMaven1</mainClass>							
 						 </manifest>
           				</archive>	
 				</configuration>
