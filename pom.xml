@@ -1,5 +1,5 @@
 <project>
-	<groupId>com.ejemplo</groupId>
+	<groupId>EjemploMaven1</groupId>
 	<artifactId>EjemploMaven1</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<modelVersion>4.0.0</modelVersion>
@@ -8,15 +8,14 @@
 	<build>
 	    	<plugins>
 		     	<plugin>
-				<groupId>com.ejemplo</groupId>
+				<groupId>EjemploMaven1</groupId>
 				<artifactId>EjemploMaven1</artifactId>
 				<version>1.0-SNAPSHOT</version>
 			      	<configuration>
-				<archive>
-				<mainClass>EjemploMaven1</mainClass>					
-				<manifestFile>meta-inf/manifest.mf</manifestFile>
-				<mainClass>EjemploMaven1</mainClass>
-				</archive>
+				 <manifest>
+					<addClasspath>true</addClasspath>
+					<mainClass>EjemploMaven1</mainClass>					
+	    			</manifest>
 				</configuration>
 		     	</plugin>
 	    	</plugins>
